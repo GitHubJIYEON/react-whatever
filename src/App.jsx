@@ -1,12 +1,12 @@
+import App from "../dist/App";
+import Header from "../dist/components/layout/Header";
+import Content from "../dist/components/layout/Content";
+
 export default function App() {
   return (
     <div id="app">
-      <h1>Hello world</h1>
-      <p>custom Virtual DOM!</p>
-      <ul>
-        <li>Javascript</li>
-        <li>React</li>
-      </ul>
+      <Header />
+      <Content />
     </div>
   );
 }
