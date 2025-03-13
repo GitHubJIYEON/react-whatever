@@ -1,9 +1,9 @@
 export default function testTransfilling() {
-    return (
-        <div>
-            <h1>Hello World</h1>
-        </div>
-    );
+  return (
+    <div>
+      <h1>Hello World</h1>
+    </div>
+  );
 }
 
 // $ npm run babel ./src/testTransfilling.jsx
